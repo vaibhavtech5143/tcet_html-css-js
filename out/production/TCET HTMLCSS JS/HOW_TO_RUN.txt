@@ -1,0 +1,44 @@
+=== HOW TO RUN THE SIMPLE JAVA EMAIL SERVER ===
+
+STEP 1: COMPILE THE JAVA FILE
+1. Open Command Prompt (cmd) or Terminal
+2. Navigate to the folder where EmailServer.java is located
+3. Type: javac EmailServer.java
+4. Press Enter
+5. If no errors, you should see a new file called EmailServer.class
+
+STEP 2: RUN THE SERVER
+1. In the same folder, type: java EmailServer
+2. Press Enter
+3. You should see:
+   === Simple Email Server Starting ===
+   Server will run on port 8080
+   Open your browser and go to: http://localhost:8080
+   Server is ready and waiting for connections...
+
+STEP 3: TEST THE SERVER
+1. Open your web browser
+2. Go to: http://localhost:8080
+3. You should see a webpage showing "Welcome to our Email Server!"
+4. This webpage will show all stored emails
+
+STEP 4: TEST WITH YOUR HTML FORM
+1. Open your index.html file in the browser
+2. Enter an email and click Submit
+3. The email should be stored in the server
+4. Go back to http://localhost:8080 to see the stored email
+
+STEP 5: STOP THE SERVER
+1. Go back to the command prompt where the server is running
+2. Press Ctrl+C to stop the server
+
+=== WHAT THIS SERVER DOES ===
+- Stores emails in a simple array (up to 100 emails)
+- Shows a webpage with all stored emails
+- Handles form submissions from your HTML page
+- Very simple and easy to understand for beginners
+
+=== TROUBLESHOOTING ===
+- If you get "Port already in use" error, close any other programs using port 8080
+- If you get "javac not found" error, you need to install Java JDK
+- If the webpage doesn't load, make sure the server is running first

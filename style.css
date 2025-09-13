@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+
+    width: 25px;
+    filter: invert(1);
+
+}
+
+body{
+    background-color: #EEE6CA;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+    border-radius: 45px;
+
+}
+
+ul{
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 80vw;
+    margin: 20vh;
+    
+    padding: 10px 15px;
+    border: 2px solid rebeccapurple;
+}
+
+.container h1{
+  padding: 12px 0px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 2px solid grey;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+input{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 45px;
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+ 
+    font-size: 23px;
+
+    background-color: black;
+    color: white;;
+}
